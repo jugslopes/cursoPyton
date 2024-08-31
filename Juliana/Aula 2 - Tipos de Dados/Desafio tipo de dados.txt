@@ -1,0 +1,31 @@
+#Exercício 2
+numero_inteiro= int(input("Digite um valor entra 0 a 10: "))
+numero_divid_2 = int(input("Digite um valor entra 0 a 10: "))
+sucessor = numero_inteiro - 1 
+antecessor = numero_inteiro + 1
+print(f"O sucessor é igual a {sucessor}")
+print(f"O antecessor é igual a {antecessor}")
+
+#Exercício 3
+numero_mult_1 = int(input("Digite um valor entra 0 a 10: "))
+dobro = numero_mult_1 * 2
+print(f"valor do dobro é igual a {dobro}")
+triplo = numero_mult_1 ** 3
+print(f"valor do triplo é igual a {triplo}")
+quadrado = numero_mult_1 ** 2
+print(f"valor do quadrado é igual a {quadrado}")
+
+
+
+#Exercício 4
+nota1 = int(input("Digite um valor nota 1: "))
+nota2 = int(input("Digite um valor nota 2: "))
+soma = nota1 + nota2
+media = soma / 2
+print(f"valor da media é igual {media}")
+
+#Exercico 5
+dinheiro_real = int(input("Digite um valor dinheiro 1: "))
+dolar = 5
+conversao = dinheiro_real / dolar
+print(f"valor do dolar é igual a {conversao}")

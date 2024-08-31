@@ -1,0 +1,13 @@
+#Exercício 2
+caractere1 = str(input("Digite um caractere"))
+caractere2 = str(input("Digite um caractere"))
+print(f"O usuário digitou {caractere1}")
+print(f"O usuário digitou {caractere2}")
+
+
+#Exercício 4
+base = (input("Digite a base"))
+altura = (input("Digite a altura"))
+area = base * altura
+perimento = base + base + altura + altura
+print(f"O resultado {caractere2}")
